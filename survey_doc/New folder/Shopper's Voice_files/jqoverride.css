@@ -1,0 +1,40 @@
+﻿/**/
+/* Rank sort drag drop styles*/
+/**/
+.rankSort { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+.rankSort li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; height: 1.5em; line-height: 1.2em;}
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+.rankSortTwoCol { list-style-type: none; margin: 0; padding: 0; float: left;border:1;width: 48%;}
+.rankSortTwoCol li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em;cursor:move;}
+.ui-icon-arrowthick-2-e-w {float:left}
+.tick
+{
+    z-index: 1;
+    top:-55%;
+    height: 210%;
+    line-height: 1em;
+    position: absolute;
+    background: none;
+    left:0;
+    border-right: 0;
+    border-left-width:1px;
+    border-left-style:ridge;
+    border-top:0;
+    border-bottom:0;
+    vertical-align:middle;
+    color: black; 
+}
+.tickContent
+{
+    z-index: 2;
+    position: absolute;
+    font-size: .7em;
+    height:100%;
+    padding-top:10px;
+    text-align:center;
+    left:0;
+}
+
+.spSliderFirstRow {}
+.spSliderRow {margin-top:50px;}
+

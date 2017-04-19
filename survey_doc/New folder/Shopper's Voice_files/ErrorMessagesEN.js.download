@@ -1,0 +1,32 @@
+﻿//  Copyright 2009 Narragansett Technologies.  All Rights Reserved.
+var SurveyAllocError = 'has  (%1) un-allocated! Out of a total of (%2).';
+var SurveyRequired = 'Answer is required.';
+var SurveyQRequired = 'Please answer this question to continue.';
+var SurveyRankQRequired = 'Ranking Question Incomplete, the following rankings {0} are missing';
+var SurveyCnfQRequired = 'Email address and confirm email address do not match. Please  Re-enter';
+var SurveyRankQRequiredDup = 'Rank question cannot have duplicate rankings entered';
+var SurveyRankQExtra = 'Only rank items between 1 and';
+var SurveyQNumericTextRequired = 'required, value cannot be greater than';
+var SurveyExclusiveAnswer = 'This answer is exclusive and cannot be selected with another.';
+var SurveyQTotal = 'Question should add up to';
+var SurveyQtotalMinMax = 'Value entered must be between';
+var SurveyErrorCMS = 'is the maximum allowed selections for this question';
+var SurveyPmtMsg = 'Please answer all required questions. Thank you.';
+var SurveyCnfRequired = 'Email address and confirm email address do not match. Please  Re-enter';
+var SurveyAnsExclusive = ' This answer is exclusive and cannot be selected with another.';
+var SurveyMaxDiff = ' Please select one answer from each column. ';
+var SurveyMaxDiffCol = ' Please select different answers from each column.';
+var SurveyunRankedSort = 'Question Incomplete, Please sort the list by dragging and dropping items.';
+var SurveyFileUploadRequired = 'File upload is required.';
+var SurveyLilertMatrix = 'is exclusive and cannot be selected with another value.';
+//inline errors
+var SurveyAllocErrorIn = 'Question incomplete %1 is still un-allocated.';
+var SurveyQNumericTextRequiredIn = 'Value must be in the range ';
+var SurveyARequired = 'Answer is required.';
+var SurveyPmtMsgIn = 'Please answer all required questions. {0} answers remaining. Thank you.';
+var SurveyColRequired = 'Column is required.';
+var SurveyInvFileType = 'Invalid file type';
+var SurveyInvBrowser = 'Heatmap question is only supported by modern borwsers';
+var SurveyQRequiredMinSelection = 'Please select at least {0} response(s) to continue.'
+
+
